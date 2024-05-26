@@ -311,7 +311,7 @@ class _InstantCameraWidgetState extends State<InstantCameraWidget> with WidgetsB
     final isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
 
     return Scaffold(
-      appBar: AppBar(elevation: 2.0),
+      appBar: AppBar(toolbarHeight: 0, elevation: 2.0),
       body: SafeArea(
         minimum: const EdgeInsets.all(1.0),
         child: Stack(
