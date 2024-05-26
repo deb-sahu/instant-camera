@@ -1,7 +1,7 @@
 name: instant_camera
 description: A flutter plugin to quickly take pictures and videos using a built-in camera interface.
 version: 0.0.1
-homepage:
+homepage: https://github.com/deb-sahu/instant_camera
 
 environment:
   sdk: '>=3.3.3 <4.0.0'

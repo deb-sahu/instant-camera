@@ -41,7 +41,7 @@ void main() async {
 }
 ```
 
-#### Your file
+#### my_camera_screen.dart (Your implemenation file)
 ```dart
 import 'package:flutter/material.dart';
 import 'package:instant_camera/instant_camera_widget.dart';
@@ -69,6 +69,6 @@ Explore the various customization options and features provided by **instant_cam
 For more details, check out the documentation for comprehensive usage instructions and examples.
 
 ## Feedback and Contributions
-I welcome feedback, suggestions, and contributions to improve **instant_camera**. Feel free to open issues, submit pull requests, or reach out to me with your ideas and feedback.
+I welcome feedback, suggestions, and contributions to improve **instant_camera**. Feel free to open issues, submit pull requests, or reach out to me with your ideas and feedback through LinkedIn - https://www.linkedin.com/in/adarshh7/.
 
 
