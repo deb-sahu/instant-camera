@@ -13,7 +13,7 @@ class CameraManagerService {
   }
 
   CameraManagerService._internal();
-  
+
   /// Initializes the available cameras on the device.
   Future<void> initializeCameras() async {
     if (_cameras == null) {
@@ -29,6 +29,7 @@ class CameraManagerService {
       }
     }
   }
+
   /// Returns the list of available cameras on the device.
   List<CameraDescription>? getAvailableCameras() {
     return _cameras;

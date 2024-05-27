@@ -71,6 +71,54 @@ class MyCameraScreen extends StatelessWidget {
 }
 ```
 
+## Configuration
+
+### Android
+
+#### AndroidManifest.xml
+Make sure to add the following permission for accessing the camera:
+
+```xml
+<!-- Permission for accessing `camera` -->
+<uses-permission android:name="android.permission.CAMERA"/>
+```
+
+##### build.gradle
+Set the `minSdkVersion` to at least 21 in your `build.gradle` file:
+
+```groovy
+android {
+    ...
+    defaultConfig {
+        ...
+        minSdkVersion 21
+        ...
+    }
+    ...
+}
+```
+
+### iOS
+
+#### Info.plist
+Add the following keys to your `Info.plist` file to request permission for camera usage and access to photo library:
+
+```xml
+<key>NSCameraPortraitEffectEnabled</key>
+<true/>
+<key>NSCameraUsageDescription</key>
+<string>Required for clicking pictures</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>Required for saving screen captures</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Required for saving photos</string>
+<key>UIFileSharingEnabled</key>
+<true/>
+```
+
+These instructions will guide users on how to configure their Android and iOS projects appropriately to use the **instant_camera** package.
+
+
 ## Getting Started
 Explore the various customization options and features provided by **instant_camera** to enhance your camera interface and user experience.
 

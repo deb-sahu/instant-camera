@@ -60,7 +60,8 @@ class InstantCameraWidget extends StatefulWidget {
   _InstantCameraWidgetState createState() => _InstantCameraWidgetState();
 }
 
-class _InstantCameraWidgetState extends State<InstantCameraWidget> with WidgetsBindingObserver {
+class _InstantCameraWidgetState extends State<InstantCameraWidget>
+    with WidgetsBindingObserver {
   CameraController? controller;
   bool _isCameraInitialized = false;
 
@@ -149,8 +150,12 @@ class _InstantCameraWidgetState extends State<InstantCameraWidget> with WidgetsB
       });
     }
 
-    cameraController.getMaxZoomLevel().then((value) => _maxAvailableZoom = value);
-    cameraController.getMinZoomLevel().then((value) => _minAvailableZoom = value);
+    cameraController
+        .getMaxZoomLevel()
+        .then((value) => _maxAvailableZoom = value);
+    cameraController
+        .getMinZoomLevel()
+        .then((value) => _minAvailableZoom = value);
     _currentFlashMode = controller!.value.flashMode;
   }
 
@@ -308,7 +313,8 @@ class _InstantCameraWidgetState extends State<InstantCameraWidget> with WidgetsB
     final size = MediaQuery.of(context).size;
     final height = size.height;
     final width = size.width;
-    final isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
+    final isLandscape =
+        MediaQuery.of(context).orientation == Orientation.landscape;
 
     return Scaffold(
       appBar: AppBar(toolbarHeight: 0, elevation: 2.0),
@@ -460,7 +466,9 @@ class _InstantCameraWidgetState extends State<InstantCameraWidget> with WidgetsB
                   children: [
                     Icon(
                       Icons.circle,
-                      color: _isVideoCameraSelected ? Colors.white : Colors.white38,
+                      color: _isVideoCameraSelected
+                          ? Colors.white
+                          : Colors.white38,
                       size: 80,
                     ),
                     Icon(
@@ -498,8 +506,12 @@ class _InstantCameraWidgetState extends State<InstantCameraWidget> with WidgetsB
                               }
                             },
                       style: TextButton.styleFrom(
-                        foregroundColor: _isVideoCameraSelected ? Colors.black54 : Colors.black,
-                        backgroundColor: _isVideoCameraSelected ? Colors.white30 : Colors.white,
+                        foregroundColor: _isVideoCameraSelected
+                            ? Colors.black54
+                            : Colors.black,
+                        backgroundColor: _isVideoCameraSelected
+                            ? Colors.white30
+                            : Colors.white,
                       ),
                       child: const Text('IMAGE'),
                     ),
@@ -517,8 +529,12 @@ class _InstantCameraWidgetState extends State<InstantCameraWidget> with WidgetsB
                         }
                       },
                       style: TextButton.styleFrom(
-                        foregroundColor: _isVideoCameraSelected ? Colors.black : Colors.black54,
-                        backgroundColor: _isVideoCameraSelected ? Colors.white : Colors.white30,
+                        foregroundColor: _isVideoCameraSelected
+                            ? Colors.black
+                            : Colors.black54,
+                        backgroundColor: _isVideoCameraSelected
+                            ? Colors.white
+                            : Colors.white30,
                       ),
                       child: const Text('VIDEO'),
                     ),
