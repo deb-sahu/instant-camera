@@ -6,7 +6,7 @@
 ### Features
 
 - **Simple Integration**: Easily integrate camera functionality into your Flutter app with minimal setup.
-- **Customizable Interface**: Customize styles, text, background colors, and more to match your app's design theme.
+- **Customizable Interface**: Customize styles and features like Zoom Slider, Icon for Flash, Image Thumbnail and more to match your app's design theme.
 - **Gallery Integration**: Automatically saves captured images and videos to the device's gallery by default.
 - **Responsive Design**: Responsive layout design ensures compatibility across various screen sizes.
 - **User-Friendly**: Provides a user-friendly interface for capturing media content with intuitive controls.
@@ -27,7 +27,7 @@ To use **instant_camera** in your Flutter project, add it to your `pubspec.yaml`
 
 ```yaml
 dependencies:
-  instant_camera: ^0.0.2  # Use the latest version
+  instant_camera: ^0.0.3  # Use the latest version
 ```
 
 ### Import

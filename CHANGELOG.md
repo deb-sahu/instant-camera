@@ -1,3 +1,8 @@
+## 0.0.3
+
+* Updated README for extra info
+* Big fixes and refactoring
+
 ## 0.0.2
 
 * Updated dependencies
