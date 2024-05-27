@@ -1,3 +1,7 @@
+## 0.0.4
+
+* README update
+
 ## 0.0.3
 
 * Updated README for extra info
