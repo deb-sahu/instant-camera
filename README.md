@@ -83,7 +83,7 @@ Make sure to add the following permission for accessing the camera:
 <uses-permission android:name="android.permission.CAMERA"/>
 ```
 
-##### build.gradle
+#### build.gradle
 Set the `minSdkVersion` to at least 21 in your `build.gradle` file:
 
 ```groovy
@@ -126,6 +126,7 @@ For more details, check out the documentation for comprehensive usage instructio
 
 ## Feedback and Contributions
 I welcome feedback, suggestions, and contributions to improve **instant_camera**. Feel free to open issues, submit pull requests, or reach out to me with your ideas and feedback.
-Let's connect on LinkedIn - https://www.linkedin.com/in/adarshh7/
+
+Let's connect on linkedIn - https://www.linkedin.com/in/adarshh7/
 
 
