@@ -27,7 +27,7 @@ To use **instant_camera** in your Flutter project, add it to your `pubspec.yaml`
 
 ```yaml
 dependencies:
-  instant_camera: ^1.0.0  # Use the latest version
+  instant_camera: ^0.0.1  # Use the latest version
 ```
 
 ### Import
