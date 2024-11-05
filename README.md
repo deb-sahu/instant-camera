@@ -1,6 +1,6 @@
 # instant_camera
 
-**instant_camera** is a Flutter package designed to simplify the process of capturing pictures and videos using the device's built-in camera interface. It aims to provide a straightforward and customizable solution for taking media content without the complexity often associated with default camera plugins.
+**instant_camera** is a Flutter package designed to simplify the process of capturing pictures and videos using a built-in camera interface. It aims to provide a straightforward and customizable solution for taking media content without the complexity often associated with default camera plugin.
 
 
 ## Features
